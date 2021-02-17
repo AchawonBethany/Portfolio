@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Antic Slab', serif;
+}
+body {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 80vh;
+}
+#welcome-section {
+  padding-top: 10px;
+  height: 190px;
+  border-bottom: 3px solid black;
+  position: relative;
+}
+#center {
+  background-color: pink;
+  border: 5px solid black;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+  float: left;
+  position: relative;
+}
+#nav-bar {
+  padding: 60px 10px 0 0;
+  height: 150px;
+  font-size: 1em;
+  font-weight: lighter;
+  background-color: black;
+  text-align: center;
+  letter-spacing: 7px;
+}
+#nav-bar ul {
+  margin: 0;
+  padding: 0;
+}
+#nav-bar li {
+  display: inline;
+  margin: 0;
+  font-family: 'Antic Slab', serif;
+}
+#nav-bar a {
+  display: inline;
+  padding: .5em;
+  color: pink;
+}
+#nav-bar a:hover {
+  background-image: url(images/meback.png);
+  color: black;
+  border: 3px solid black;
+}
+.me {
+  display: flex;
+  flex: wrap;
+  min-height: 600px;
+  height: 600px;
+  width: 100%;
+  background-image: url(images/meback.png);
+  position: relative;
+}
+#flex1{
+   order: 1;
+   width: 69%
+}
+#about-me {
+  float: left;
+  border: 10px solid white;
+  margin: 7% 20px 7% 20px;
+  min-width: 300px;
+  height: 400px;
+  width: 100%;
+}
+  #about-me1 {
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  margin: 10% 0 10% 0;
+  min-width: 200px;
+  min-height: 350px;
+}
+#about-me1 h2,p {
+  padding: 20px;
+}
+#flex2 {
+  order: 2;
+  width: 29%
+}
+#me-photo {
+  min-width: 500px;
+  float: right;
+  margin: 15px;
+  border: 10px solid black;
+  height: 540px;
+  width: 100%;
+}
+#me-photo img {
+  min-width: 450px;
+  margin-top: 0px 0px 10px 0;
+  height: 530px;
+  width: 400px;
+  margin: 0px 15px 0px 15px;
+  border: 10px solid white;
+}
+#flex3 {
+  order: 3;
+  width: 100%;
+}
+.projects{
+  background-color: blue;
+  height: 800px;
+  width: 100%;
+}
+.projects-tile1 {
+  background-color: black;
+  height: 1150px;
+  width: 100%;
+  border-bottom: 10px solid pink;
+}
+#tiles {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+}
+#tiles img {
+  border: 5px solid pink;
+}
+#tiles a: hover {
+}
+#tiles figcaption {
+  color: pink;
+}
+#here a {
+  color: black;
+}
+#flex4 {
+}
+h3 {
+  color: pink;
+  text-align: center;
+}
+#big-con {
+  height: 100px;
+  width: 40%;
+  margin: 0 30% 0 30%;
+  border: 5px solid pink;
+}
+#con {
+  height: 100px;
+  width: 85%;
+  margin: 7%;
+  border: 5px solid black;
+  background-image: url(images/meback.png);
+}
+#big-con1 {
+  height: 100px;
+  width: 40%;
+  margin: 0 30% 0 30%;
+  border-bottom: 5px solid pink;
+}
+hr {
+  height: 5px;
+  border: 5px solid pink;
+  margin: 0 50px 0 50px;
+}
+@media all and (max-width: 800px) {
+  #navbar {
+    justify-content: space-around;
+  }
+
+  .tiles {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media all and (max-width: 600px) {
+  #navbar {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
+
+
+ 
